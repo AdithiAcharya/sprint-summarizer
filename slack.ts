@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config(); // Load .env variables
 
-const slackToken = "xoxb-8099119085904-8076384600178-WCKfkkCpWJ5cSVSwdFra8pSv"; // Slack Bot Token
+const slackToken = ""; // Slack Bot Token
 const channel = "C082M7MKAG1"; // Replace with actual channel ID
 
 const web = new WebClient(slackToken);
